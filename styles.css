@@ -1,0 +1,124 @@
+body
+{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 8%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.maincontainer
+{
+    width: 350px;
+    height: 525px;
+    background-color:  hsl(0, 0%, 12%);
+    box-shadow: 0 0 10px hsl(0, 0%, 20%);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.imagecontainer
+{
+    width: 100px;
+    height: 100px;
+    margin: 20px auto 0 auto ;
+    border-radius: 50%;
+}
+.imagecontainer img
+{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: inherit;
+}
+.textcontainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: -103px;
+}
+.text1
+{
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.text2
+{
+    color: hsl(75, 94%, 57%);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 30px;
+    left: 93px;
+}
+.text3
+{
+    color: white ;
+    letter-spacing: 2.4px;
+    font-size: 15px;
+    font-weight: 200;
+    position: absolute;
+    top:75px;
+    font-family: Inter;
+}
+.buttoncontainer
+{
+    position: relative;
+}
+
+.submit
+{
+    width: 290px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    position: absolute;
+    transition: 0.3s ease;
+}
+.buttoncontainer button:first-child
+{
+    top: -255px;
+    left: 30px;
+}
+.submit:hover
+{
+    background-color:hsl(75, 94%, 57%);
+    color: black;
+}
+.buttoncontainer button:nth-child(2)
+{
+  top: -205px; 
+  left: 30px;
+}
+.buttoncontainer button:nth-child(3){
+    top: -155px; 
+    left: 30px;
+}
+.buttoncontainer button:nth-child(4)
+{
+    top: -105px; 
+    left: 30px;
+}
+.buttoncontainer button:nth-child(5)
+{
+    top: -55px; 
+    left: 30px;
+}
